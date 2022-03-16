@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 99.0.4844.51,,,2022-03-16 10:24:36,2022-03-16 10:24:50,13.769s,PASSED
+,,,,,,,
+Test Cases/Usm view mycsd,Chrome 99.0.4844.51,,,2022-03-16 10:24:37,2022-03-16 10:24:50,13.290s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-16 10:24:37,2022-03-16 10:24:40,2.619s,PASSED
+"navigateToUrl(""http://campusonline.usm.my/"")",Chrome 99.0.4844.51,,,2022-03-16 10:24:40,2022-03-16 10:24:41,1.129s,PASSED
+"click(findTestObject(""Object Repository/Page_USM CampusOnline Portal/span_Login with USM ID""))",Chrome 99.0.4844.51,,,2022-03-16 10:24:41,2022-03-16 10:24:42,1.206s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign In/input_Identity Single Sign On_UserName""), ""kahsingc99@student.usm.my"")",Chrome 99.0.4844.51,,,2022-03-16 10:24:42,2022-03-16 10:24:43,1.285s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign In/input_Identity Single Sign On_Password""), ""/UuVw8zBvQIWom9KeclPBQ=="")",Chrome 99.0.4844.51,,,2022-03-16 10:24:43,2022-03-16 10:24:44,0.918s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign In/span_Sign in""))",Chrome 99.0.4844.51,,,2022-03-16 10:24:44,2022-03-16 10:24:47,2.384s,PASSED
+"click(findTestObject(""Object Repository/Page_SMU-Pelajar/b_Student Profile_arrow fa fa-angle-down""))",Chrome 99.0.4844.51,,,2022-03-16 10:24:47,2022-03-16 10:24:48,0.732s,PASSED
+"click(findTestObject(""Object Repository/Page_SMU-Pelajar/a_MyCSD""))",Chrome 99.0.4844.51,,,2022-03-16 10:24:48,2022-03-16 10:24:49,1.150s,PASSED
+"click(findTestObject(""Object Repository/Page_SMU-Pelajar/a_Projek""))",Chrome 99.0.4844.51,,,2022-03-16 10:24:49,2022-03-16 10:24:49,0.737s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-16 10:24:49,2022-03-16 10:24:50,0.681s,PASSED
